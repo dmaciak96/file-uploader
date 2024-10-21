@@ -1,7 +1,9 @@
 # File Uploader
 
 ## Build Instruction
-
+1. Go to root project directory: ```cd <ROOT_PROJECT_DIRECTORY>```
+2. Build project: ```mvnw clean package```
+3. Run application: ```java -jar target\file-uploader-0.0.1-SNAPSHOT.jar```
 ## How to test
 1. Run Postman,
 2. Select the POST request,
