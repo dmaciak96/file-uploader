@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: file-uploader
+  codec:
+    max-in-memory-size: 500KB
+  r2dbc:
+    url: r2dbc:h2:file:///./data/metadatadb
